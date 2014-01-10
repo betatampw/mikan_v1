@@ -72,8 +72,9 @@ body .fulljustify:after {  content: "";  display: inline-block;  width: 100%;}
 #mainAbout .thirdLine {font-size: 42px; line-height: 28px; height: 28px; margin: 0px 0 25px}
 #mainAbout .fourthLine {font-size: 32px; line-height: 28px; height: 28px; margin: 0px 0 25px; text-align: center;}
 #mainAbout .competitions {list-style: none; text-align: center; margin: 0; padding: 0; }
-#mainAbout .competitions li {display: block; float: left; margin: 0px 10px 20px; padding: 0; }
-#mainAbout .competitions li a {display: table-cell; width: 140px; height: 140px; background: #e15f1e; color: #e8f0db; text-align: center; vertical-align: middle; border-radius: 70px; font-size: 24px;
+#mainAbout .competitions li {display: inline-block;  margin: 0px 10px 20px; padding: 0; }
+#mainAbout .competitions li a {display: table-cell; width: 140px; height: 140px; color: #e8f0db; text-align: center; vertical-align: middle; border-radius: 70px; font-size: 24px;
+background: #e15f1e;
 -webkit-box-shadow: 1px 1px 0px 0px #A33F0D;
 -moz-box-shadow: 1px 1px 0px 0px #A33F0D;
 box-shadow: 1px 1px 0px 0px #A33F0D;
@@ -84,18 +85,30 @@ text-shadow: -1px -1px 0px #A33F0D;
 -o-transition: all 0.5s ease;
 transition: all 0.5s ease;
 }
+
 #mainAbout .competitions li a:hover {
-
-
 background: #a2c22e;	
 -webkit-box-shadow: 1px 1px 0px 0px #5F7412;
 -moz-box-shadow: 1px 1px 0px 0px #5F7412;
 box-shadow: 1px 1px 0px 0px #5F7412;
 text-shadow: -1px -1px 0px #5F7412;
-
 }
 
+#mainAbout .competitions li:nth-child(2n) a {
+background: #a2c22e;	
+-webkit-box-shadow: 1px 1px 0px 0px #5F7412;
+-moz-box-shadow: 1px 1px 0px 0px #5F7412;
+box-shadow: 1px 1px 0px 0px #5F7412;
+text-shadow: -1px -1px 0px #5F7412;
+} 
 
+#mainAbout .competitions li:nth-child(2n) a:hover {
+background: #e15f1e;
+-webkit-box-shadow: 1px 1px 0px 0px #A33F0D;
+-moz-box-shadow: 1px 1px 0px 0px #A33F0D;
+box-shadow: 1px 1px 0px 0px #A33F0D;
+text-shadow: -1px -1px 0px #A33F0D;
+}
 
 #contentArea {}
 #contentArea h3 {text-align: center;}
