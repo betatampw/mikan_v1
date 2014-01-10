@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'RexBold';
+    src: url('../fonts/rex_bold.eot');
+    src: url('../fonts/rex_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rex_bold.woff') format('woff'),
+         url('../fonts/rex_bold.ttf') format('truetype'),
+         url('../fonts/rex_bold.svg#rex_bold_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body { height: 100%; color: #444444; background: #f0e8db;}
+body ul,
+body ol {padding-left: 15px;}
+body a:hover {text-decoration: none;}
+body a:focus {outline: none; text-decoration: none;	}
+
+body .fulljustify { text-align: justify; word-spacing: -5px}
+body .fulljustify:after {  content: "";  display: inline-block;  width: 100%;}
+
+
+.rexBold {font-family: RexBold;}
+.orange {color: #e15f1e !important; text-shadow: 1px 1px 0px #A33F0D;}
+.green {color: #a2c22e !important; text-shadow: 1px 1px 0px #5F7412;}
+
+
+
+#wrap { min-height: 100%;  height: auto;  margin: 0 auto -200px;  padding: 0 0 200px;}
+
+
+
+#mainNav {height: 50px;  background: #333333; }
+#mainNav a {color: #e15f1e; font-family: RexBold; font-size: 21px; text-shadow: 1px 1px 0px #A33F0D;}
+
+#mainNav .navbar {background: #333333;}
+#mainNav .navbar-nav > .open > a,
+#mainNav .navbar-nav > li > a:hover {
+	background: #444444;
+}
+#mainNav .navbar-nav .dropdown .dropdown-menu {background: #444444; padding: 1px 0px;}
+#mainNav .navbar-nav .dropdown:hover .dropdown-menu {display: block;}
+
+#mainNav .socSetIconsUl {margin-right: 0px; height: 50px; overflow: hidden;}
+#mainNav .socSetIconsUl li {float: left;}
+
+
+
+
+#header {padding-top: 25px; margin-bottom: 20px;}
+
+#header .logoBlock { display: block; background: url(../images/logo.png); text-align: right; font-family: RexBold; }
+#header .logoBlock .firstLine { font-size: 58px; line-height: 45px; height: 61px; color: #e15f1e; text-shadow: 2px 2px 0px #A33F0D;}
+#header .logoBlock .secondLine {font-size: 102px; line-height: 77px; height: 93px; color: #a2c22e; text-shadow: 2px 2px 0px #5F7412;}
+#header .logoBlock .thirdLine { font-size: 58px; line-height: 45px; height: 50px; color: #e15f1e; text-shadow: 2px 2px 0px #A33F0D;}
+
+#header .dateBlock {font-family: RexBold; text-align: center;}
+#header .dateBlock .firstLine { font-size: 58px; line-height: 45px; height: 61px; letter-spacing: 5px;}
+#header .dateBlock .secondLine {font-size: 102px; line-height: 77px; height: 93px;}
+#header .dateBlock .thirdLine { font-size: 58px; line-height: 45px; height: 45px; letter-spacing: 3px;} 
+
+#header .timeBlock {font-family: RexBold; text-align: right;}
+#header .timeBlock .firstLine { font-size: 40px; line-height: 45px; height: 61px;}
+#header .timeBlock .secondLine {font-size: 102px; line-height: 77px; height: 93px;}
+#header .timeBlock .thirdLine { font-size: 40px; line-height: 45px; height: 45px;}
+
+
+
+#mainAbout {border-top: 1px solid #a2c22e; border-bottom: 1px solid #a2c22e; background: #e8f0db; font-family: RexBold;}
+#mainAbout .firstLine {font-size: 57px; line-height: 45px; height: 50px; margin: 25px 0 10px}
+#mainAbout .secondLine {font-size: 32px; line-height: 28px; height: 28px; margin: 0px 0 15px}
+#mainAbout .thirdLine {font-size: 42px; line-height: 28px; height: 28px; margin: 0px 0 25px}
+#mainAbout .fourthLine {font-size: 32px; line-height: 28px; height: 28px; margin: 0px 0 25px; text-align: center;}
+#mainAbout .competitions {list-style: none; text-align: center; margin: 0; padding: 0; }
+#mainAbout .competitions li {display: block; float: left; margin: 0px 10px 20px; padding: 0; }
+#mainAbout .competitions li a {display: table-cell; width: 140px; height: 140px; background: #e15f1e; color: #e8f0db; text-align: center; vertical-align: middle; border-radius: 70px; font-size: 24px;
+-webkit-box-shadow: 1px 1px 0px 0px #A33F0D;
+-moz-box-shadow: 1px 1px 0px 0px #A33F0D;
+box-shadow: 1px 1px 0px 0px #A33F0D;
+text-shadow: -1px -1px 0px #A33F0D;
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+#mainAbout .competitions li a:hover {
+
+
+background: #a2c22e;	
+-webkit-box-shadow: 1px 1px 0px 0px #5F7412;
+-moz-box-shadow: 1px 1px 0px 0px #5F7412;
+box-shadow: 1px 1px 0px 0px #5F7412;
+text-shadow: -1px -1px 0px #5F7412;
+
+}
+
+
+
+#contentArea {}
+#contentArea h3 {text-align: center;}
+#contentArea .hotelTable {width: 100%; margin-bottom: 10px;}
+#contentArea .hotelTable td {vertical-align: top;}
+#contentArea .taxiTable {width: 100%; margin-bottom: 10px;}
+
+#footer {height: 200px;  background-color: #333333;}
+
