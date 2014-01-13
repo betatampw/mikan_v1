@@ -29,7 +29,7 @@ ymaps.ready(function () {
             hintContent: 'Собственный значок метки'
         }, {
             iconLayout: 'default#image',
-            iconImageHref: 'http://betatampw.github.io/mikan_v1/files/images/marker.png',
+            iconImageHref: 'http://betatampw.github.io/mikan_v1/files/images/marker_v3.png',
             iconImageSize: [24, 44],
             iconImageOffset: [-10, -42]
         });
