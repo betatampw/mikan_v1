@@ -10,7 +10,7 @@
 }
 
 html,
-body { height: 100%; color: #444444; background: #f0e8db;}
+body { height: 100%; color: #444444; background: #f0e8db; font-family: Lucida Sans Unicode, Lucida Grande, sans-serif; font-size: 14px;}
 body ul,
 body ol {padding-left: 15px;}
 body a:hover {text-decoration: none;}
@@ -144,6 +144,15 @@ body h4 {font-family: RexBold;}
 	text-shadow: -1px -1px 0px #5F7412;		
 }
 #mainLinks .mainLinksCol:nth-child(2n) .mainLink .mainLinkTxt  { }
+
+
+#mapArea #YMapsID { width: 100%; height: 300px;}
+
+
+
+
+
+
 
 #contentArea {}
 #contentArea h3 {text-align: center;}
