@@ -21,7 +21,7 @@ body h1,
 body h2,
 body h3,
 body h4 {font-family: RexBold;}
-
+body>ymaps {z-index: 1050;}
 .rexBold {font-family: RexBold;}
 .orange {color: #e15f1e !important; text-shadow: 1px 1px 0px #A33F0D;}
 .green {color: #a2c22e !important; text-shadow: 1px 1px 0px #5F7412;}
@@ -35,7 +35,7 @@ body h4 {font-family: RexBold;}
 #mainNav {height: 50px;  background: #333333; }
 #mainNav a {color: #e15f1e; font-family: RexBold; font-size: 21px; text-shadow: 1px 1px 0px #A33F0D;}
 
-#mainNav .navbar {background: #333333;}
+#mainNav .navbar {background: #333333; z-index: 1;}
 #mainNav .navbar-nav > .open > a,
 #mainNav .navbar-nav > li > a:hover {
 	background: #444444;

@@ -21,22 +21,17 @@ $("a[href^=#]").click(function(){
 
 ymaps.ready(function () {
     var myMap = new ymaps.Map('YMapsID', {
-            center: [55.751574, 37.573856],
-            zoom: 9
+            center: [56.349549,41.282364],
+            zoom: 16,
+            controls: ['zoomControl', 'fullscreenControl']
         }),
         myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
             hintContent: 'Собственный значок метки'
         }, {
-            // Опции.
-            // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
-            // Своё изображение иконки метки.
-            iconImageHref: '../images/marker.png',
-            // Размеры метки.
-            iconImageSize: [30, 42],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            iconImageOffset: [-3, -42]
+            iconImageHref: 'http://betatampw.github.io/mikan_v1/files/images/marker.png',
+            iconImageSize: [24, 44],
+            iconImageOffset: [-10, -42]
         });
 
     myMap.geoObjects.add(myPlacemark);
