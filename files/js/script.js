@@ -28,8 +28,16 @@ ymaps.ready(function () {
             zoom: 16,
             controls: ['fullscreenControl']
         }),
-        myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-            hintContent: 'Собственный значок метки'
+        myPlacemark = new ymaps.Placemark([56.349549,41.282364], {
+            balloonContentBody: [
+                '<address>',
+                '<strong>Место проведения</strong>',
+                '<br/>',
+                'Ковров, ул. Волго-Донская 1а  ДК "Родина"',
+                '<br/>',
+                '<a href="/">Подробнее<a>',
+                '</address>'
+            ].join('')
         }, {
             iconLayout: 'default#image',
             iconImageHref: 'http://betatampw.github.io/mikan_v1/files/images/marker_v3.png',
@@ -38,6 +46,7 @@ ymaps.ready(function () {
         });
 
     myMap.geoObjects.add(myPlacemark);
+    myPlacemark.openBalloon();
 });
 
 	

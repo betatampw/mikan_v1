@@ -32,7 +32,7 @@ body>ymaps {z-index: 1050;}
 
 
 
-#mainNav {height: 50px;  background: #333333; }
+#mainNav {  background: #333333; }
 #mainNav a {color: #e15f1e; font-family: RexBold; font-size: 21px; text-shadow: 1px 1px 0px #A33F0D;}
 
 #mainNav .navbar {background: #333333; z-index: 1;}
@@ -49,7 +49,7 @@ body>ymaps {z-index: 1050;}
 
 
 
-#header {padding-top: 25px; margin-bottom: 20px;}
+#header {padding-top: 75px; margin-bottom: 20px;}
 
 #header .logoBlock { display: block; background: url(../images/logo.png); text-align: right; font-family: RexBold; }
 #header .logoBlock .firstLine { font-size: 58px; line-height: 45px; height: 61px; color: #e15f1e; text-shadow: 2px 2px 0px #A33F0D;}
@@ -144,13 +144,9 @@ body>ymaps {z-index: 1050;}
 	text-shadow: -1px -1px 0px #5F7412;		
 }
 #mainLinks .mainLinksCol:nth-child(2n) .mainLink .mainLinkTxt  { }
-.tmp1,
 #mapArea {border-top: 1px solid #a2c22e; border-bottom: 1px solid #a2c22e; background: #E8F0DB; padding: 20px 0; min-height: 100px;} 
-.tmp2 { background: #e8f0db; height: 100px; }
-
-
 #mapArea .mapBg {background: #91BA65;}
-#mapArea #YMapsID { width: 100%; height: 400px; opacity: 0.8;  }
+#mapArea #YMapsID { width: 100%; height: 300px; opacity: 0.8;  }
 
 
 
