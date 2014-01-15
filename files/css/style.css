@@ -22,6 +22,21 @@ body h2,
 body h3,
 body h4 {font-family: RexBold;}
 body>ymaps {z-index: 1050;}
+
+body h2 {
+	font-size: 32px;
+	line-height: 28px;
+	margin-top: 0px;
+}
+
+
+p {
+font-family: "verdana", "arial", sans-serif;
+font-size: 16px;
+line-height: 26px;
+}
+
+
 .rexBold {font-family: RexBold;}
 .orange {color: #e15f1e !important; text-shadow: 1px 1px 0px #A33F0D;}
 .green {color: #a2c22e !important; text-shadow: 1px 1px 0px #5F7412;}
@@ -114,7 +129,7 @@ body>ymaps {z-index: 1050;}
 }
 
 
-#mainLinks {}
+#mainLinks {padding-top: 20px;}
 #mainLinks h2 {margin-bottom: 20px; color: #e15f1e !important; text-shadow: 1px 1px 0px #A33F0D;}
 #mainLinks .mainLink { min-height: 50px;
 	-webkit-transition: all 0.5s ease;
@@ -135,18 +150,31 @@ body>ymaps {z-index: 1050;}
 #mainLinks .mainLink .mainLinkTxt {font-family: RexBold; margin-left: 65px; font-size: 20px; line-height: 25px; color: #444444; text-align: justify;}
 #mainLinks .mainLink .mainLinkTxt div {height: 50px; display: table-cell; vertical-align: middle;}
 
-#mainLinks .mainLinksCol:nth-child(2n) h2{color: #a2c22e !important; text-shadow: 1px 1px 0px #5F7412;}
-#mainLinks .mainLinksCol:nth-child(2n) .mainLink .mainLinkRound i {
+#mainLinks .mainLinksCol:nth-child(2n+1) h2{color: #a2c22e !important; text-shadow: 1px 1px 0px #5F7412;}
+#mainLinks .mainLinksCol:nth-child(2n+1) .mainLink .mainLinkRound i {
 	background: #a2c22e;	
 	-webkit-box-shadow: 1px 1px 0px 0px #5F7412;
 	-moz-box-shadow: 1px 1px 0px 0px #5F7412;
 	box-shadow: 1px 1px 0px 0px #5F7412;
 	text-shadow: -1px -1px 0px #5F7412;		
 }
-#mainLinks .mainLinksCol:nth-child(2n) .mainLink .mainLinkTxt  { }
-#mapArea {border-top: 1px solid #a2c22e; border-bottom: 1px solid #a2c22e; background: #E8F0DB; padding: 20px 0; min-height: 100px;} 
-#mapArea .mapBg {background: #91BA65;}
-#mapArea #YMapsID { width: 100%; height: 300px; opacity: 0.8;  }
+
+
+#priceArea {border-top: 1px solid #a2c22e; border-bottom: 1px solid #a2c22e; background: #E8F0DB; padding: 20px 0; min-height: 100px; text-align: center;  font-family: RexBold;} 
+#priceArea h2 {font-size: 35px}
+#priceArea .center { width: 180px; margin: 0 auto;}
+#priceArea .ticket { display: table-cell; width: 180px; height: 180px; color: #E8F0DB; text-align: center; vertical-align: middle; border-radius: 150px; font-size: 120px; line-height: 30px; 
+background: #e15f1e;
+-webkit-box-shadow: 1px 1px 0px 0px #A33F0D;
+-moz-box-shadow: 1px 1px 0px 0px #A33F0D;
+box-shadow: 1px 1px 0px 0px #A33F0D;
+text-shadow: -1px -1px 0px #A33F0D;
+}
+#priceArea .ticket .price {font-size: 21px; line-height: 20px;}
+#priceArea .ticket .price i {font-size: 19px;}
+#priceArea .txt {font-size: 20px; padding-top: 10px;}
+
+
 
 
 

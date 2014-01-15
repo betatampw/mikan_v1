@@ -20,7 +20,7 @@ $("a[href^=#]").click(function(){
 */
 
 
-
+/*
 // ymaps
 ymaps.ready(function () {
     var myMap = new ymaps.Map('YMapsID', {
@@ -48,5 +48,5 @@ ymaps.ready(function () {
     myMap.geoObjects.add(myPlacemark);
     myPlacemark.openBalloon();
 });
-
+*/
 	
