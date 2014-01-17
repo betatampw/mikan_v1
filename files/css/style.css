@@ -50,7 +50,7 @@ line-height: 26px;
 #mainNav {  background: #333333; }
 #mainNav a {color: #e15f1e; font-family: RexBold; font-size: 21px; text-shadow: 1px 1px 0px #A33F0D;}
 
-#mainNav .navbar {background: #333333; z-index: 1;}
+#mainNav .navbar {background: #333333; z-index: 3;}
 #mainNav .navbar-nav > .open > a,
 #mainNav .navbar-nav > li > a:hover {
 	background: #444444;
@@ -73,7 +73,7 @@ line-height: 26px;
 
 #header .dateBlock {font-family: RexBold; text-align: center;}
 #header .dateBlock .firstLine { font-size: 58px; line-height: 45px; height: 61px; letter-spacing: 5px;}
-#header .dateBlock .secondLine {font-size: 102px; line-height: 77px; height: 93px;}
+#header .dateBlock .secondLine {font-size: 102px; line-height: 77px; height: 93px; letter-spacing: 10px;}
 #header .dateBlock .thirdLine { font-size: 58px; line-height: 45px; height: 45px; letter-spacing: 3px;} 
 
 #header .timeBlock {font-family: RexBold; text-align: right;}
@@ -83,9 +83,25 @@ line-height: 26px;
 
 
 
+
 #mainAbout {border-top: 1px solid #a2c22e; border-bottom: 1px solid #a2c22e; background: #e8f0db; font-family: RexBold;}
 #mainAbout .firstLine {font-size: 57px; line-height: 45px; height: 50px; margin: 25px 0 10px}
 #mainAbout .secondLine {font-size: 32px; line-height: 28px; height: 28px; margin: 0px 0 15px}
+
+#mainAbout .priceArea { padding: 10px 0 15px; min-height: 100px; text-align: center;  font-family: RexBold;} 
+#mainAbout .priceArea h2 {font-size: 35px}
+#mainAbout .priceArea .center { width: 180px; margin: 0 auto;}
+#mainAbout .priceArea .ticket { display: table-cell; width: 180px; height: 180px; color: #E8F0DB; text-align: center; vertical-align: middle; border-radius: 150px; font-size: 120px; line-height: 30px; 
+background: #e15f1e;
+-webkit-box-shadow: 1px 1px 0px 0px #A33F0D;
+-moz-box-shadow: 1px 1px 0px 0px #A33F0D;
+box-shadow: 1px 1px 0px 0px #A33F0D;
+text-shadow: -1px -1px 0px #A33F0D;
+}
+#mainAbout .priceArea .ticket .price {font-size: 21px; line-height: 20px;}
+#mainAbout .priceArea .ticket .price i {font-size: 19px;}
+#mainAbout .priceArea .txt {font-size: 20px; padding-top: 10px;}
+
 #mainAbout .thirdLine {font-size: 42px; line-height: 28px; height: 28px; margin: 0px 0 25px}
 #mainAbout .fourthLine {font-size: 32px; line-height: 28px; height: 28px; margin: 0px 0 25px; text-align: center;}
 #mainAbout .competitions {list-style: none; text-align: center; margin: 0; padding: 0; }
@@ -129,8 +145,8 @@ line-height: 26px;
 }
 
 
-#mainLinks {padding-top: 20px;}
-#mainLinks h2 {margin-bottom: 20px; color: #e15f1e !important; text-shadow: 1px 1px 0px #A33F0D;}
+#mainLinks {padding: 10px 0 20px;}
+#mainLinks h2 {margin:10px 0 20px; color: #e15f1e !important; text-shadow: 1px 1px 0px #A33F0D;}
 #mainLinks .mainLink { min-height: 50px;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
@@ -160,24 +176,48 @@ line-height: 26px;
 }
 
 
-#priceArea {border-top: 1px solid #a2c22e; border-bottom: 1px solid #a2c22e; background: #E8F0DB; padding: 20px 0; min-height: 100px; text-align: center;  font-family: RexBold;} 
-#priceArea h2 {font-size: 35px}
-#priceArea .center { width: 180px; margin: 0 auto;}
-#priceArea .ticket { display: table-cell; width: 180px; height: 180px; color: #E8F0DB; text-align: center; vertical-align: middle; border-radius: 150px; font-size: 120px; line-height: 30px; 
-background: #e15f1e;
--webkit-box-shadow: 1px 1px 0px 0px #A33F0D;
--moz-box-shadow: 1px 1px 0px 0px #A33F0D;
-box-shadow: 1px 1px 0px 0px #A33F0D;
-text-shadow: -1px -1px 0px #A33F0D;
+#mainLinks .vkBlock {
+	border:2px solid #e15f1e;
+	background: #e15f1e; height: 283px; overflow: hidden;
+	-webkit-box-shadow: 2px 2px 0px 0px #A33F0D;
+	-moz-box-shadow: 2px 2px 0px 0px #A33F0D;
+	box-shadow: 2px 2px 0px 0px #A33F0D;
+	position: relative;
 }
-#priceArea .ticket .price {font-size: 21px; line-height: 20px;}
-#priceArea .ticket .price i {font-size: 19px;}
-#priceArea .txt {font-size: 20px; padding-top: 10px;}
+#mainLinks .vkBlock .head {position: absolute; width: 100%; height: 34px; background: #e15f1e; font-size: 20px; color: #e8f0db; line-height: 20px; padding: 7px 0px 7px 5px; font-family: RexBold; }
+#mainLinks .vkBlock .head i {display: block; margin: 0px 4px 0px 0px; font-size: 19px;} 
+#mainLinks .vkBlock #vk_groups,
+#mainLinks .vkBlock #vk_groups iframe {width: 100% !important;}
+
+#mainLinks .youtubeBlock {
+	border:2px solid #A2C22E;
+	background: #A2C22E; height: 283px; overflow: hidden;
+	-webkit-box-shadow: 2px 2px 0px 0px #5F7412;
+	-moz-box-shadow: 2px 2px 0px 0px #5F7412;
+	box-shadow: 2px 2px 0px 0px #5F7412;
+}
+#mainLinks .youtubeBlock .head {font-size: 20px; color: #e8f0db; line-height: 20px; margin: 7px 0px 7px 5px; font-family: RexBold;}
+#mainLinks .youtubeBlock .head i {display: block; margin: 0px 4px 0px 0px; font-size: 19px;}
+#mainLinks .youtubeBlock .youTubeBtn {padding: 0}
+#mainLinks .youtubeBlock iframe {margin: 0px; padding: 0;}
+#mainLinks .youtubeBlock .foot .txt{float: left; font-size: 11px; padding: 3px 0 0px 10px;  font-family: Tahoma; color: #fff; }
 
 
-
-
-
+#mainLinks .twBlock {
+	border:2px solid #e15f1e;
+	height: 283px; overflow: hidden;
+	-webkit-box-shadow: 2px 2px 0px 0px #A33F0D;
+	-moz-box-shadow: 2px 2px 0px 0px #A33F0D;
+	box-shadow: 2px 2px 0px 0px #A33F0D;	
+	position: relative;
+	padding-left: 3px;
+}
+#mainLinks .twBlock .head {position: absolute; width: 100%; height: 34px; background: #e15f1e; font-size: 20px; color: #e8f0db; line-height: 20px; font-family: RexBold; z-index: 1; top:0; left: 0px;padding: 7px 0px 7px 5px;}
+#mainLinks .twBlock .head i {display: block; margin: 0px 4px 0px 0px; font-size: 19px;} 
+#mainLinks .twBlock .foot {height: 31px; background: #e15f1e; position: absolute; bottom: 0; left: 0; width: 100%; z-index: 1;} 
+#mainLinks .twBlock iframe {z-index: 0; position: relative; margin-top: -8px;}
+#mainLinks .twBlock .foot .txt{float: left; font-size: 11px; padding: 8px 0 0px 10px;  font-family: Tahoma; color: #fff; }
+#mainLinks .twBlock .foot .twBtn {float: right; padding: 12px 1px 0 0;}
 
 
 #contentArea {}
