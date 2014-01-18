@@ -43,7 +43,7 @@ line-height: 26px;
 
 
 
-#wrap { min-height: 100%;  height: auto;  margin: 0 auto -200px;  padding: 0 0 200px;}
+#wrap { min-height: 100%;  height: auto;  margin: 0 auto -300px;  padding: 0 0 300px;}
 
 
 
@@ -226,5 +226,29 @@ text-shadow: -1px -1px 0px #A33F0D;
 #contentArea .hotelTable td {vertical-align: top;}
 #contentArea .taxiTable {width: 100%; margin-bottom: 10px;}
 
-#footer {height: 200px;  background-color: #333333;}
 
+
+
+#footer {min-height: 300px;}
+#partnersArea {
+	padding: 20px 0 10px;
+	min-height: 178px;
+	border-top: 1px solid #a2c22e; background: #e8f0db;
+}
+#partnersArea h3 {
+	margin-top: 0px;
+	text-align: center;
+}
+#partnersArea .partners {margin: 0;}
+#partnersArea .partners .partner {padding: 0 5px 10px 5px;}
+#partnersArea .partners .partner .partnerImdDiv {text-align: center;
+
+
+}
+#partnersArea .partners .partner .partnerImdDiv img {max-height: 100px; max-width: 100%; opacity: 0.6;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;}
+#partnersArea .partners .partner .partnerImdDiv:hover img{ opacity: 1;}
+#copyright {min-height: 50px; background-color: #333333;}
