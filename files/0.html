@@ -1,158 +1,217 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>{{ page.title }}</title>  
+  <title>{{ page.title }}</title>
 
   <link rel="shortcut icon" href="favicon.png">
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-      <![endif]-->
-    </head>
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-    <body>
-      <div id="wrap">
-        <div id="mainNav" class="navbar-wrapper">
-          <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
-            <div class="container">
-              <div class="navbar-header visible-xs">
-                <a class="navbar-brand" href="{{ site.host }}">Mikan <span class="green">no</span> Yuki</a>
-                <ul class="nav navbar-nav pull-right socSetIconsUl">
-                  <li><a class="visible-xs" href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse" ><i class="fa fa-bars"></i></a></li> 
-                </ul>                
-              </div>
-
-
-
-              <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav pull-left">
-                  <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                      О фестивале <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a href="{{ site.host }}about/index.html">О нас</a></li>
-                      <li><a href="{{ site.host }}about/program.html">Программа фестиваля</a></li>
-                      <li><a href="{{ site.host }}about/place.html">Место проведения</a></li>
-                      <li><a href="{{ site.host }}about/city.html">О городе</a></li>
-                      <li><a href="{{ site.host }}about/hotel.html">Гостиница</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                      Конкурсы <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a href="{{ site.host }}competitions/cosplay-scene.html">Косплей-постановка</a></li>
-                      <li><a href="{{ site.host }}competitions/cosplay-catwalk.html">Косплей-дефиле</a></li>
-                      <li><a href="{{ site.host }}competitions/karaoke.html">Караоке</a></li>
-                      <li><a href="{{ site.host }}competitions/amv-gmv.html">AMV/GMV</a></li>
-                      <li><a href="{{ site.host }}competitions/video-cosplay.html">Видео-косплей</a></li>
-                      <li><a href="{{ site.host }}competitions/art.html">Арт</a></li>
-                      <li><a href="{{ site.host }}competitions/cosplay-photo.html">Фото-косплей</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                      Полезная информация <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a href="{{ site.host }}info/index.html">Информация для участников</a></li>
-                      <li><a href="{{ site.host }}info/judging.html">Cудейство</a></li>
-                      <li><a href="{{ site.host }}info/organizers.html">Оргком</a></li>
-                      <li><a href="{{ site.host }}info/aakf.html">ААКФ</a></li>
-                    </ul>                   
-                  </li>
-                  <li><a target="_blank" href="http://forum.mikan.su/">Форум</a></li>
-                </ul>
-
-                <ul class="nav navbar-nav pull-right socSetIconsUl">
-                  <li><a target="_blank" href=""><i class="fa fa-vk"></i></a></li>
-                  <li><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
-                </ul>  
-
-              </div>
-
-
-            </div>
-          </div>
-          <div class="clearfix"></div>
-        </div>
-
-        <div id="header">
-          <div class="container">
-
-            <div class="row">
-              <div class="col-md-3">
-                <a href="{{ site.host }}" class="logoBlock">
-                  <div class="firstLine">Mikan</div>
-                  <div class="secondLine">no</div>
-                  <div class="thirdLine">Yuki</div>              
+<body>
+  <div id="wrap">
+    <div id="mainNav" class="navbar-wrapper">
+      <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header visible-xs">
+            <a class="navbar-brand" href="{{ site.host }}">Mikan <span class="green">no</span> Yuki</a>
+            <ul class="nav navbar-nav pull-right socSetIconsUl">
+              <li>
+                <a class="visible-xs" href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i>
                 </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav pull-left">
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">О фестивале <b class="caret"></b> 
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="{{ site.host }}about/index.html">О нас</a>
+                  </li>
+                  <li>
+                    <a href="{{ site.host }}about/program.html">Программа фестиваля</a>
+                  </li>
+                  <li>
+                    <a href="{{ site.host }}about/place.html">Место проведения</a>
+                  </li>
+                  <li>
+                    <a href="{{ site.host }}about/city.html">О городе</a>
+                  </li>
+                  <li>
+                    <a href="{{ site.host }}about/hotel.html">Гостиница</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Конкурсы <b class="caret"></b> 
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="{{ site.host }}competitions/cosplay-scene.html">Косплей-постановка</a>
+                  </li>
+                  <li>
+                    <a href="{{ site.host }}competitions/cosplay-catwalk.html">Косплей-дефиле</a>
+                  </li>
+                  <li>
+                    <a href="{{ site.host }}competitions/karaoke.html">Караоке</a>
+                  </li>
+                  <li>
+                    <a href="{{ site.host }}competitions/amv-gmv.html">AMV/GMV</a>
+                  </li>
+                  <li>
+                    <a href="{{ site.host }}competitions/video-cosplay.html">Видео-косплей</a>
+                  </li>
+                  <li>
+                    <a href="{{ site.host }}competitions/art.html">Арт</a>
+                  </li>
+                  <li>
+                    <a href="{{ site.host }}competitions/cosplay-photo.html">Фото-косплей</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Полезная информация <b class="caret"></b> 
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="{{ site.host }}info/index.html">Информация для участников</a>
+                  </li>
+                  <li>
+                    <a href="{{ site.host }}info/judging.html">Cудейство</a>
+                  </li>
+                  <li>
+                    <a href="{{ site.host }}info/organizers.html">Оргком</a>
+                  </li>
+                  <li>
+                    <a href="{{ site.host }}info/aakf.html">ААКФ</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a target="_blank" href="http://forum.mikan.su/">Форум</a>
+              </li>
+            </ul>
+
+            <ul class="nav navbar-nav pull-right socSetIconsUl">
+              <li>
+                <a target="_blank" href=""><i class="fa fa-vk"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href=""><i class="fa fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+
+    <div id="header">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-3">
+            <a href="{{ site.host }}" class="logoBlock">
+              <div class="firstLine">
+                Mikan
               </div>
-              <div class="col-md-3">
-                <div class="dateBlock">
-                  <div class="firstLine"><span class="green">КОВРОВ</span></div>
-                  <div class="secondLine"><span class="orange">8-10</span></div>
-                  <div class="thirdLine"><span class="green">августа</span></div>
-                </div>
+              <div class="secondLine">
+                no
               </div>
-              <div class="col-md-6">
-                <div class="timeBlock">
-                  <div class="firstLine"><span class="orange">ул. Волго-Донская 1а&nbsp;&nbsp;ДК "Родина"</span></div>
-                  <div class="secondLine fulljustify"><span class="green">005 : 17 : 52 : 05</span></div>
-                  <div class="thirdLine fulljustify"><span class="orange">Дней : Часов : Минут : Секунд</span></div>                
-                </div>
+              <div class="thirdLine">
+                Yuki
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <div class="dateBlock">
+              <div class="firstLine">
+                <span class="green">КОВРОВ</span>
+              </div>
+              <div class="secondLine">
+                <span class="orange">8-10</span>
+              </div>
+              <div class="thirdLine">
+                <span class="green">августа</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="timeBlock">
+              <div class="firstLine">
+                <span class="orange">ул. Волго-Донская 1а&nbsp;&nbsp;ДК "Родина"</span>
+              </div>
+              <div class="secondLine fulljustify">
+                <span class="green">005 : 17 : 52 : 05</span>
+              </div>
+              <div class="thirdLine fulljustify">
+                <span class="orange">Дней : Часов : Минут : Секунд</span>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
+    <div id="mainAbout">
+      <div class="container">
 
-        <div id="mainAbout">
-          <div class="container">
+        <div class="firstLine fulljustify">
+          <span class="orange">Mikan</span>
+          <span class="green">no</span>
+          <span class="orange">Yuki</span>(яп. 蜜柑の雪 Снежный Мандарин)
+        </div>
+        <div class="secondLine fulljustify">
+          10-й Ковровский всероссийский <span class="green">аниме фестиваль</span>, проводится <span class="orange">Ежегодно с 2006 года</span>
+        </div>
 
-            <div class="firstLine fulljustify">
-              <span class="orange">Mikan</span> <span class="green">no</span> <span class="orange">Yuki</span> (яп. 蜜柑の雪 Снежный Мандарин)
+        <div class="priceArea">
+          <div class="row">
+            <div class="col-md-3">
+              <h2 class="orange">Стоимость билета</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ducimus tenetur aperiam et animi harum alias minus! Delectus, dolore, neque, sunt, beatae earum ullam incidunt dolores.
+              </p>
             </div>
-            <div class="secondLine fulljustify">
-              Ковровский всероссийский <span class="green">аниме фестиваль</span>, проводится  <span class="orange">Ежегодно с 2006 года</span>
-            </div>
 
-            <div class="priceArea">
-              <div class="row">
-                <div class="col-md-3">
-                  <h2 class="orange">Стоимость билета</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ducimus tenetur aperiam et animi harum alias minus! Delectus, dolore, neque, sunt, beatae earum ullam incidunt dolores.</p>
-                </div> 
-
-                <div class="col-md-3">
-                  <div class="center">
-                    <div class="ticket">
-                      <i class="fa fa-ticket"></i>
-                      <div class="price">
-                        350 <i class="fa fa-rub"></i> 
-                      </div>
-                    </div>
+            <div class="col-md-3">
+              <div class="center">
+                <div class="ticket">
+                  <i class="fa fa-ticket"></i>
+                  <div class="price">
+                    350 <i class="fa fa-rub"></i>
                   </div>
-                  <div class="txt">
-                   Для гостей аниме <br />фестиваля   
-                 </div> 
-               </div>    
+                </div>
+              </div>
+              <div class="txt">
+                Для гостей аниме
+                <br />фестиваля
+              </div>
+            </div>
 
-               <div class="col-md-3">
-                <div class="center">
-                 <div class="ticket">
+            <div class="col-md-3">
+              <div class="center">
+                <div class="ticket">
                   <i class="fa fa-ticket"></i>
                   <div class="price">
                     бесплатно
@@ -161,299 +220,437 @@
               </div>
 
               <div class="txt">
-                Для участников сценических <br />конкурсов
-              </div> 
+                Для участников сценических<br />конкурсов
+              </div>
             </div>
 
             <div class="col-md-3">
               <div class="center">
-               <div class="ticket">
-                <i class="fa fa-ticket"></i>
-                <div class="price">
-                  250 <i class="fa fa-rub"></i>
+                <div class="ticket">
+                  <i class="fa fa-ticket"></i>
+                  <div class="price">
+                    250 <i class="fa fa-rub"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="txt">
+                Для участников несценических<br />конкурсов
+                <a href="#" data-toggle="tooltip" title="" data-original-title="билеты приобретаются на столе регистрации участников">
+                  <span class="orange"><i class="fa fa-exclamation-triangle fa-lg"></i></span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+        <div class="todo" style=" padding: 30px 0;">
+          Билеты на afterparty: участники и зрители 8 - 9 августа - 50р. , 10 августа - 100р. (по зрительскому билету и по списку участников)
+        </div>
+        <div class="todo" style=" padding: 30px 0;">
+          Продажа билетов на фестиваль в кассе ДК:
+          <br />8 августа — с 14:00 до 18:00.
+          <br />9 августа — с 9:00 до 14:00.
+          <br />
+          <br />Продажа билетов на afterparty в зале ДК:
+          <br />8 августа — с 14:00 до 18:00
+          <br />9 августа - 8.30 до 14.00 на столе регистрации участников
+          <br />
+        </div>
+
+        -------------
+
+
+        <div class="todo" style=" padding: 30px 0;">
+          срок подачи заявок на сценические конкурсы и художественные конкурсы: с 1 июня по 27 июля фото косплей с 1 июня по 20 июля
+        </div>
+
+        <div class="todo" style=" padding: 30px 0;">
+          Программа фестиваля
+          <br />: 8 августа
+          <br />13.00 - 22.00 - репетиции (большой зал)
+          <br />13.00 -17.00 - файтиг турниры (малый зал)
+          <br />17.00 - 22.00 - аниме показы (малый зал)
+          <br />
+          <br />9 августа
+          <br />8.30 - регистрация участников
+          <br />11.30 - запуск зрителей в фойе
+          <br />12.30 - начало программы (большой зал),
+          <br />выставка - конкурс фанарта, оригинального рисунка, фото косплея (фойе),
+          <br />аниме - ярмарка (фойе),
+          <br />фото угол (фойе),
+          <br />Файтинг - турнир (бар 2 этаж),
+          <br />Мейд-кафе (бар 2 этаж),
+          <br />20.30 - награждение
+          <br />
+          <br />10 августа
+          <br />13.00 - 15.00 - мастер классы (малый зал)
+          <br />15.00 - 17.00 - аниме показ (малый зал)
+          <br />17.00 - 18.30 - презентация роликов от ААКФ (малый зал)
+          <br />19.00 - 00.00 - afterparty (бар 2 этаж)
+          <br />
+        </div>
+
+
+
+
+
+
+        <div class="thirdLine fulljustify">
+          <span class="orange">В программе</span> фестиваля представлены cледующие
+          <span class="green">конкурсы:</span>
+        </div>
+
+        <ul class="competitions">
+          <li>
+            <a href="{{ site.host }}competitions/cosplay-scene.html">Косплей<br />постановка
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.host }}competitions/cosplay-catwalk.html">Косплей<br />дефиле
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.host }}competitions/karaoke.html">Караоке</a>
+          </li>
+          <li>
+            <a href="{{ site.host }}competitions/amv-gmv.html">AMV/GMV</a>
+          </li>
+          <li>
+            <a href="{{ site.host }}competitions/art.html">Арт</a>
+          </li>
+          <li>
+            <a href="{{ site.host }}competitions/cosplay-photo.html">Фото<br />косплей
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.host }}competitions/video-cosplay.html">Видео<br />косплей
+            </a>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+        <div class="fourthLine">
+          Так же производится показ аниме фильмов
+        </div>
+
+      </div>
+    </div>
+
+    <div id="mainLinks">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4 mainLinksCol">
+            <h2 class="text-center">Посетителям</h2>
+            <a class="mainLink" href="">
+              <div class="mainLinkRound">
+                <i class="fa fa-vk"></i>
+              </div>
+              <div class="mainLinkTxt">
+                <div>
+                  о нас
+                </div>
+              </div>
+            </a>
+
+            <a class="mainLink" href="">
+              <div class="mainLinkRound">
+                <i class="fa fa-vk"></i>
+              </div>
+              <div class="mainLinkTxt">
+                <div>
+                  Гостиница
+                </div>
+              </div>
+            </a>
+
+            <a class="mainLink" href="">
+              <div class="mainLinkRound">
+                <i class="fa fa-vk"></i>
+              </div>
+              <div class="mainLinkTxt">
+                <div>
+                  Путеводитель
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 mainLinksCol">
+            <h2 class="text-center green">Участникам</h2>
+
+            <a class="mainLink" href="">
+              <div class="mainLinkRound">
+                <i class="fa fa-vk"></i>
+              </div>
+              <div class="mainLinkTxt">
+                <div>
+                  Основаня Информация для участников
+                </div>
+              </div>
+            </a>
+
+            <a class="mainLink" href="">
+              <div class="mainLinkRound">
+                <i class="fa fa-vk"></i>
+              </div>
+              <div class="mainLinkTxt">
+                <div>
+                  Cудейство
+                </div>
+              </div>
+            </a>
+
+            <a class="mainLink" href="">
+              <div class="mainLinkRound">
+                <i class="fa fa-vk"></i>
+              </div>
+              <div class="mainLinkTxt">
+                <div>
+                  информация о ДК
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 mainLinksCol">
+            <h2 class="text-center green">Последнии новости</h2>
+            <a class="mainLink" href="">
+              <div class="mainLinkRound">
+                <i class="fa fa-file-text"></i>
+              </div>
+              <div class="mainLinkTxt">
+                <div>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+              </div>
+            </a>
+            <a class="mainLink" href="">
+              <div class="mainLinkRound">
+                <i class="fa fa-file-text"></i>
+              </div>
+              <div class="mainLinkTxt">
+                <div>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+              </div>
+            </a>
+            <a class="mainLink" href="">
+              <div class="mainLinkRound">
+                <i class="fa fa-file-text"></i>
+              </div>
+              <div class="mainLinkTxt">
+                <div>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 mainLinksCol">
+            <h2 class="text-center">Вконтакте</h2>
+            <div class="vkBlock">
+              <div class="head">
+                Mikan no Yuki 2014 <i class="fa fa-vk pull-right"></i>
+              </div>
+              <div id="vk_groups"></div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mainLinksCol">
+            <h2 class="text-center">Youtube</h2>
+            <div class="youtubeBlock">
+              <div class="head">
+                MikanFest <i class="fa fa-youtube pull-right"></i>
+              </div>
+              <iframe width="100%" height="214" src="http://www.youtube.com/embed/imYcpOujFdA?showinfo=0&color=white" frameborder="0" allowfullscreen></iframe>
+              <div class="foot">
+                <div class="txt">
+                  Подписаться на канал
+                </div>
+                <div class="youTubeBtn pull-right">
+                  <div class="g-ytsubscribe" data-channel="mikanfest" data-layout="default" data-count="default"></div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-4 mainLinksCol">
+            <h2 class="text-center green">Twitter</h2>
+            <div class="twBlock">
+              <div class="head">
+                @mikanfest <i class="fa fa-twitter pull-right"></i>
+              </div>
+              <div class="foot">
+                <div class="txt">
+                  Подписаться на твиттер
+                </div>
+                <div class="twBtn">
+                  <a href="https://twitter.com/mikanfest" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-lang="en">Follow @mikanfest</a>
+                </div>
+              </div>
+              <a class="twitter-timeline" href="https://twitter.com/mikanfest" data-chrome="transparent" data-link-color="#BC5742" data-theme="light" data-widget-id="323540068532879360">Твиты пользователя @mikanfest</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contentArea">
+      <div class="container">
+
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div id="partnersArea">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Спонсоры фестиваля:</h3>
+            <div class="row partners">
+              <div class="col-md-4 partner">
+                <div class="partnerImdDiv">
+                  <a href="" target="_blank">
+                    <img src="images/partners/animepoint.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4 partner">
+                <div class="partnerImdDiv">
+                  <a href="" target="_blank">
+                    <img src="images/partners/arkanum.png" alt="">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-4 partner">
+                <div class="partnerImdDiv">
+                  <a href="" target="_blank">
+                    <img src="images/partners/shoptouki.png" alt="">
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="txt">
-              Для участников несценических <br />конкурсов
-            </div>   
-             <div class="dopTxt">(билеты приобретаются на столе регистрации участников)</div>    
-          </div>
 
+          </div>
+          <div class="col-md-6 partners">
+            <h3>Информационная поддержка и наши друзья:</h3>
+            <div class="row partners">
+              <div class="col-md-3 partner">
+                <div class="partnerImdDiv">
+                  <a href="" target="_blank">
+                    <img src="images/partners/zovem.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-3 partner">
+                <div class="partnerImdDiv">
+                  <a href="" target="_blank">
+                    <img src="images/partners/shiroihi.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-3 partner">
+                <div class="partnerImdDiv">
+                  <a href="" target="_blank">
+                    <img src="images/partners/animatsuri.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-3 partner">
+                <div class="partnerImdDiv">
+                  <a href="" target="_blank">
+                    <img src="images/partners/animatrix.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
-
-      <div class="thirdLine fulljustify">
-        <span class="orange">В программе</span> фестиваля представлены cледующие <span class="green">конкурсы:</span>
-      </div>
-
-
-      <ul class="competitions">
-        <li><a href="{{ site.host }}competitions/cosplay-scene.html">Косплей<br />постановка</a></li>
-        <li><a href="{{ site.host }}competitions/cosplay-catwalk.html">Косплей<br />дефиле</a></li>
-        <li><a href="{{ site.host }}competitions/karaoke.html">Караоке</a></li>
-        <li><a href="{{ site.host }}competitions/amv-gmv.html">AMV/GMV</a></li>
-        <li><a href="{{ site.host }}competitions/art.html">Арт</a></li>
-        <li><a href="{{ site.host }}competitions/cosplay-photo.html">Фото<br />косплей</a></li>
-        <li><a href="{{ site.host }}competitions/video-cosplay.html">Видео<br />косплей</a></li>
-      </ul>
-      <div class="clearfix"></div>
-      <div class="fourthLine">
-        Так же производится показ аниме фильмов
-      </div>
-
-
 
     </div>
-  </div>
 
-
-  <div class="container">
-
-    <div id="mainLinks">
-      <div class="row">
-
-        <div class="col-md-4 mainLinksCol">
-          <h2 class="text-center">Посетителям</h2>
-          <a class="mainLink" href="">
-            <div class="mainLinkRound">
-              <i class="fa fa-vk"></i>
+    <div id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="brand">
+              ©
+              <a href="{{ site.host }}">
+                Mikan <span class="green">no</span> Yuki
+              </a>
             </div>
-            <div class="mainLinkTxt">
-              <div>о нас</div>
-            </div> 
-          </a>
 
-          <a class="mainLink" href="">
-            <div class="mainLinkRound">
-              <i class="fa fa-vk"></i>
-            </div>
-            <div class="mainLinkTxt">
-              <div>Гостиница</div>
-            </div> 
-          </a>
-
-          <a class="mainLink" href="">
-            <div class="mainLinkRound">
-              <i class="fa fa-vk"></i>
-            </div>
-            <div class="mainLinkTxt">
-              <div>Путеводитель</div>
-            </div> 
-          </a>                  
-        </div>
-
-
-        <div class="col-md-4 mainLinksCol">
-          <h2 class="text-center green">Участникам</h2>
-
-          <a class="mainLink" href="">
-            <div class="mainLinkRound">
-              <i class="fa fa-vk"></i>
-            </div>
-            <div class="mainLinkTxt">
-              <div>Основаня Информация для участников</div>
-            </div> 
-          </a>
-
-          <a class="mainLink" href="">
-            <div class="mainLinkRound">
-              <i class="fa fa-vk"></i>
-            </div>
-            <div class="mainLinkTxt">
-             <div>Cудейство</div>
-           </div> 
-         </a>
-
-         <a class="mainLink" href="">
-          <div class="mainLinkRound">
-            <i class="fa fa-vk"></i>
           </div>
-          <div class="mainLinkTxt">
-            <div>информация о ДК</div>
-          </div> 
-        </a> 
-      </div>
+          <div class="col-md-10">
+            <ul class="botMenu">
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Blog</a>
+              </li>
+              <li>
+                <a href="">News</a>
+              </li>
+              <li>
+                <a href="">Contact</a>
+              </li>
+              <li>
+                <a href="">Sitemap</a>
+              </li>
+            </ul>
 
-      <div class="col-md-4 mainLinksCol">
-        <h2 class="text-center green">Последнии новости</h2>
-        <a class="mainLink" href="">
-          <div class="mainLinkRound">
-            <i class="fa fa-file-text"></i>
           </div>
-          <div class="mainLinkTxt">
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
-          </div> 
-        </a>
-        <a class="mainLink" href="">
-          <div class="mainLinkRound">
-            <i class="fa fa-file-text"></i>
-          </div>
-          <div class="mainLinkTxt">
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
-          </div> 
-        </a>
-        <a class="mainLink" href="">
-          <div class="mainLinkRound">
-            <i class="fa fa-file-text"></i>
-          </div>
-          <div class="mainLinkTxt">
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
-          </div> 
-        </a> 
-      </div>
-
-      <div class="col-md-4 mainLinksCol">
-        <h2 class="text-center">Вконтакте</h2>
-        <div class="vkBlock">
-         <div class="head">
-           Mikan no Yuki 2014 <i class="fa fa-vk pull-right"></i>
-         </div>
-         <div id="vk_groups"></div>          
-       </div>             
-     </div>
-
-     <div class="col-md-4 mainLinksCol">
-       <h2 class="text-center">Youtube</h2>
-       <div class="youtubeBlock">
-        <div class="head">MikanFest <i class="fa fa-youtube pull-right"></i></div>
-        <iframe width="100%" height="214" src="http://www.youtube.com/embed/imYcpOujFdA?showinfo=0&color=white" frameborder="0" allowfullscreen></iframe>
-        <div class="foot">
-          <div class="txt">Подписаться на канал</div>  
-          <div class="youTubeBtn pull-right">
-           <div class="g-ytsubscribe" data-channel="mikanfest" data-layout="default" data-count="default"></div>         
-         </div> 
-         <div class="clearfix"></div>
-       </div>
-     </div>        
-
-   </div>
-
-   <div class="col-md-4 mainLinksCol">
-    <h2 class="text-center green">Twitter</h2>
-    <div class="twBlock">
-      <div class="head">
-       @mikanfest <i class="fa fa-twitter pull-right"></i>
-     </div>
-     <div class="foot">
-      <div class="txt">Подписаться на твиттер</div> 
-      <div class="twBtn">
-       <a href="https://twitter.com/mikanfest" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-lang="en">Follow @mikanfest</a>                
-     </div>
-   </div>
-   <a class="twitter-timeline" href="https://twitter.com/mikanfest" data-chrome="transparent" data-link-color="#BC5742" data-theme="light"  data-widget-id="323540068532879360">Твиты пользователя @mikanfest</a>          
- </div>
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
-
-<div id="contentArea">
-  <div class="container">
-
-  </div>
-</div> 
-</div>
-
-
-<div id="footer">
-  <div id="partnersArea">
-
-    <div class="container">
-      <div class="row"> 
-        <div class="col-md-6">
-          <h3>Спонсоры фестиваля:</h3>
-          <div class="row partners">
-            <div class="col-md-4 partner">
-              <div class="partnerImdDiv"><a href="" target="_blank"><img src="images/partners/animepoint.png" alt=""></a></div>
-            </div>
-            <div class="col-md-4 partner">
-              <div class="partnerImdDiv"><a href="" target="_blank"><img src="images/partners/arkanum.png" alt=""></a></div>
-            </div>
-
-            <div class="col-md-4 partner">
-              <div class="partnerImdDiv"><a href="" target="_blank"><img src="images/partners/shoptouki.png" alt=""></a></div>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-md-6 partners">
-          <h3>Информационная поддержка и наши друзья:</h3>
-          <div class="row partners">
-            <div class="col-md-3 partner">
-              <div class="partnerImdDiv"><a href="" target="_blank"><img src="images/partners/zovem.png" alt=""></a></div>
-            </div>
-            <div class="col-md-3 partner">
-              <div class="partnerImdDiv"><a href="" target="_blank"><img src="images/partners/shiroihi.png" alt=""></a></div>
-            </div>  
-             <div class="col-md-3 partner">
-              <div class="partnerImdDiv"><a href="" target="_blank"><img src="images/partners/animatsuri.png" alt=""></a></div>
-            </div>    
-             <div class="col-md-3 partner">
-              <div class="partnerImdDiv"><a href="" target="_blank"><img src="images/partners/animatrix.png" alt=""></a></div>
-            </div>                               
-          </div>
-
         </div>
       </div>
     </div>
-    
+
   </div>
 
-<div id="copyright">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-2">
-      <div class="brand">
-      © <a href="{{ site.host }}">Mikan <span class="green">no</span> Yuki</a>        
-      </div>
-
-
-      </div>
-      <div class="col-md-10">
-        <ul class="botMenu">
-          <li>
-            <a href="">About</a>
-          </li>
-          <li>
-            <a href="">Blog</a>
-          </li>
-          <li>
-            <a href="">News</a>
-          </li>
-          <li>
-            <a href="">Contact</a>
-          </li>
-          <li>
-            <a href="">Sitemap</a>
-          </li>
-        </ul>
-
-      </div>         
-    </div>
-  </div>   
-</div>
-
-</div>
-
-<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script src="http://api-maps.yandex.ru/2.1-dev/?lang=ru-RU&load=package.full" type="text/javascript"></script>
-<script src="js/script.js"></script>
-<script src="https://apis.google.com/js/platform.js"></script>
-<script>
-<!--//--><![CDATA[// ><!--
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-//--><!]]>
-</script>
-<script type="text/javascript" src="http://vk.com/js/api/openapi.js?105"></script>
-<script type="text/javascript">
-  VK.Widgets.Group("vk_groups", {mode: 0, width: "359", height: "280", color1: 'F0E8DB', color2: '444444', color3: 'E15F1E'}, 6641903);
-</script>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script src="http://api-maps.yandex.ru/2.1-dev/?lang=ru-RU&load=package.full" type="text/javascript"></script>
+  <script src="js/script.js"></script>
+  <script type="text/javascript">
+  $('a[data-toggle="tooltip"]').tooltip();
+  </script>
+  <script src="https://apis.google.com/js/platform.js"></script>
+  <script>
+  <!--//--><![CDATA[// ><!--
+  ! function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      p = /^http:/.test(d.location) ? 'http' : 'https';
+    if (!d.getElementById(id)) {
+      js = d.createElement(s);
+      js.id = id;
+      js.src = p + "://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }
+  }(document, "script", "twitter-wjs");
+  //--><!]]>
+  </script>
+  <script type="text/javascript" src="http://vk.com/js/api/openapi.js?105"></script>
+  <script type="text/javascript">
+  VK.Widgets.Group("vk_groups", {
+    mode: 0,
+    width: "359",
+    height: "280",
+    color1: 'F0E8DB',
+    color2: '444444',
+    color3: 'E15F1E'
+  }, 6641903);
+  </script>
 </body>
+
 </html>
