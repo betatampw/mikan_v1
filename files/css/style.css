@@ -43,7 +43,7 @@ line-height: 26px;
 
 
 
-#wrap { min-height: 100%;  height: auto;  margin: 0 auto -228px;  padding: 0 0 228px;}
+#wrap {min-height: 100%;  height: auto;  margin: 0 auto -227px;  padding: 0 0 227px;}
 
 
 
@@ -101,6 +101,7 @@ text-shadow: -1px -1px 0px #A33F0D;
 #mainAbout .priceArea .ticket .price {font-size: 21px; line-height: 20px;}
 #mainAbout .priceArea .ticket .price i {font-size: 19px;}
 #mainAbout .priceArea .txt {font-size: 20px; padding-top: 10px;}
+#mainAbout .priceArea .dopTxt {font-size: 12px; font-family:  "verdana", "arial", sans-serif; line-height: 12px;}
 
 #mainAbout .thirdLine {font-size: 42px; line-height: 28px; height: 28px; margin: 0px 0 25px}
 #mainAbout .fourthLine {font-size: 32px; line-height: 28px; height: 28px; margin: 0px 0 25px; text-align: center;}
@@ -229,7 +230,7 @@ text-shadow: -1px -1px 0px #A33F0D;
 
 
 
-#footer {min-height: 228px;}
+#footer {min-height: 227px;}
 #partnersArea {
 	padding: 15px 0 10px;
 	min-height: 178px;
