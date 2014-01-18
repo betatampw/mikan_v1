@@ -43,7 +43,7 @@ line-height: 26px;
 
 
 
-#wrap { min-height: 100%;  height: auto;  margin: 0 auto -300px;  padding: 0 0 300px;}
+#wrap { min-height: 100%;  height: auto;  margin: 0 auto -228px;  padding: 0 0 228px;}
 
 
 
@@ -229,9 +229,9 @@ text-shadow: -1px -1px 0px #A33F0D;
 
 
 
-#footer {min-height: 300px;}
+#footer {min-height: 228px;}
 #partnersArea {
-	padding: 20px 0 10px;
+	padding: 15px 0 10px;
 	min-height: 178px;
 	border-top: 1px solid #a2c22e; background: #e8f0db;
 }
@@ -252,3 +252,9 @@ text-shadow: -1px -1px 0px #A33F0D;
 	transition: all 0.5s ease;}
 #partnersArea .partners .partner .partnerImdDiv:hover img{ opacity: 1;}
 #copyright {min-height: 50px; background-color: #333333;}
+#copyright .brand {font-size: 20px;color: #ccc; padding: 10px 0;}
+#copyright .brand a {color: #e15f1e; text-shadow: 1px 1px 0px #A33F0D; font-family: RexBold; }
+#copyright .botMenu {text-transform: uppercase;padding: 0; float: right; list-style: none;margin: 0;}
+#copyright .botMenu li {padding: 0 5px;margin: 0; float: left;}
+#copyright .botMenu li a {color: #ccc; padding: 15px 0; display: block;}
+#copyright .botMenu li a:hover{text-decoration: underline; color: #ccc; }
