@@ -256,6 +256,33 @@ p {
   height: 140px;
   vertical-align: top
 }
+#afterparty .center {
+  width: 90px;
+  margin: 0 auto;
+}
+#afterparty .ticket {
+  display: table-cell;
+  width: 90px;
+  height: 90px;
+  color: #E8F0DB;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 150px;
+  font-size: 50px;
+  line-height: 30px;
+  background: #e15f1e;
+  -webkit-box-shadow: 1px 1px 0px 0px #A33F0D;
+  -moz-box-shadow: 1px 1px 0px 0px #A33F0D;
+  box-shadow: 1px 1px 0px 0px #A33F0D;
+  text-shadow: -1px -1px 0px #A33F0D;
+}
+#afterparty .ticket .price {
+  font-size: 18px;
+  line-height: 20px;
+}
+#afterparty .ticket .price i {
+  font-size: 17px;
+}
 #mainAbout .competitions li a {
   display: table-cell;
   width: 140px;
